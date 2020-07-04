@@ -5,8 +5,8 @@ module.exports = {
 	mode: 'development',
 	entry: './src/index.tsx',
 	output: {
-		filename: 'bundle.js',
-		path: __dirname + '/',
+		filename: 'index.js',
+		path: __dirname + '/dist',
 		libraryTarget: 'commonjs2'
 	},
 
