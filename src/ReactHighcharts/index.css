@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+
+.app-highcharts {
+  height: auto;
+  width: 100%;
+}
+
+.app-title {
+  min-height: 24px;
+  width: 100%;
+  min-width: 500px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(6, 136, 175, 0.5);
+}
+.app-data {
+  height: 30%;
+  min-height: 280px;
+  width: 100%;
+  min-width: 500px;
+  color: white;
+  background-color: black;
+}

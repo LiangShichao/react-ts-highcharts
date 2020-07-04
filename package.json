@@ -1,0 +1,36 @@
+{
+    "name": "react-ts-highcharts",
+    "version": "1.0.1",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "config": "npm install -g webpack && npm install",
+        "build": "npm run config && webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/react": "^16.8.13",
+        "@types/react-dom": "^16.8.4",
+        "highcharts": "^8.1.2",
+        "highcharts-react-official": "^3.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^2.1.1",
+        "file-loader": "^3.0.1",
+        "mini-css-extract-plugin": "^0.6.0",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^0.23.1",
+        "typescript": "^3.4.3",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.3.1"
+    }
+}
