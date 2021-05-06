@@ -14,7 +14,7 @@
     "dependencies": {
         "@types/react": "^16.8.13",
         "@types/react-dom": "^16.8.4",
-        "highcharts": "^8.1.2",
+        "highcharts": "^9.0.0",
         "highcharts-react-official": "^3.0.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"
